@@ -3,11 +3,14 @@
   "edition": "Enterprise",
   "hasSampleData": true,
   "language": "en_US",
-  "features": [ "SalesWave","ServiceWave"],
+  "features": [ "SalesWave","ServiceWave","AnalyticsAdminPerms","AnalyticsAppEmbedded","EinsteinAnalyticsPlus","DevelopmentWave","WavePlatform"],
   "settings": {
     "languageSettings":{
       "enableEndUserLanguages": true,
       "enableTranslationWorkbench": true
+    },
+    "analyticsSettings": {
+      "auto​Install​Apps": true
     }
   }
 }
