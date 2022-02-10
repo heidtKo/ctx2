@@ -3,26 +3,11 @@
   "edition": "Enterprise",
   "hasSampleData": true,
   "language": "en_US",
-  "features": ["Communities", "ServiceCloud", "Chatbot", "WavePlatform", ],
+  "features": [ ],
   "settings": {
-      "communitiesSettings": {
-        "enableNetworksEnabled": true
-    },
-    "mobileSettings": {
-        "enableS1EncryptedStoragePref2": true
-    },
-    "omniChannelSettings": {
-        "enableOmniChannel": true
-    },
-    "caseSettings": {
-        "systemUserEmail": "support@acme.com"
-    },
-    "iotSettings": {
-        "enableIoT": true,
-        "iotInsights": true
-    },
     "languageSettings":{
-      "enableEndUserLanguages": true
+      "enableEndUserLanguages": true,
+      "enableTranslationWorkbench": true
     }
   }
 }
