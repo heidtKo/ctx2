@@ -2,6 +2,6 @@
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
         <label>Hello World</label>
-        <name>hello_world</name>
+        <name>ctx_hello_world</name>
     </customLabels>
 </Translations>
