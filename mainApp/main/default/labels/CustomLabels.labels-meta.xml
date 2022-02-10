@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>ctx_Special_Characters</fullName>
+        <categories>ctx Special Characters `¨ç_:;__; - (test)</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx Special Characters `¨ç_:;__; - (test)</shortDescription>
+        <value>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</value>
+    </labels>
+    <labels>
         <fullName>ctx_hello_world</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ctx hello world</shortDescription>
         <value>ctx hello world</value>
+    </labels>
+    <labels>
+        <fullName>ctx_random_label</fullName>
+        <categories>my random label ^`*+´Ç.- -;.</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx random label</shortDescription>
+        <value>this is random stuff</value>
+    </labels>
+    <labels>
+        <fullName>ctx_surprise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ctx_surprise</shortDescription>
+        <value>surprize</value>
     </labels>
 </CustomLabels>

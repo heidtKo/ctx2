@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
+        <label>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</label>
+        <name>ctx_Special_Characters</name>
+    </customLabels>
+    <customLabels>
         <label>Hola Mundo</label>
         <name>ctx_hello_world</name>
+    </customLabels>
+    <customLabels>
+        <label>es cosa alguna raruna</label>
+        <name>ctx_random_label</name>
+    </customLabels>
+    <customLabels>
+        <label>Sorpresa Ññ çÇ
+ÂÊÛÎÔ
+âêûîô
+ÀÈÙÌÒ
+àèùìò
+ÁÉÚÍÓ
+áéúíó</label>
+        <name>ctx_surprise</name>
     </customLabels>
 </Translations>
