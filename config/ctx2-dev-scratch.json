@@ -3,7 +3,7 @@
   "edition": "Enterprise",
   "hasSampleData": true,
   "language": "en_US",
-  "features": [ ],
+  "features": [ "SalesWave","ServiceWave"],
   "settings": {
     "languageSettings":{
       "enableEndUserLanguages": true,
