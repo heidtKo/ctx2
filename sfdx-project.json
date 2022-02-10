@@ -1,12 +1,19 @@
 {
-  "packageDirectories": [
-    {
-      "path": "mainApp",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "mainApp",
+            "default": true,
+            "package": "ctx2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "ctx2",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "53.0",
+    "packageAliases": {
+        "ctx2": "0Ho3X000000fxlXSAQ",
+        "ctx2@0.1.0-0": "04t3X000002xVerQAE"
     }
-  ],
-  "name": "ctx2",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "53.0"
 }
