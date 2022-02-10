@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "mainApp",
+      "default": true
+    }
+  ],
+  "name": "ctx2",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "53.0"
+}

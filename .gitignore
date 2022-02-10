@@ -1,0 +1,65 @@
+#sfdx project files
+.sfdx
+.sfdx/*
+
+#editor files
+.idea/*
+.idea
+IlluminatedCloud/*
+IlluminatedCloud
+
+.vscode
+.vscode/*
+.code
+
+.forceCode
+force.json
+
+#If you want to exclude a main folder:
+.dontCommitMe
+folderName
+
+#If you want to exclude a specific file
+myTrackedFolder/mySubFolder/myFile.untracked
+
+#if you want to exclude a subfolder (including all files inside) regardless of the main folder name
+**/myUntrackedSub/**
+
+#if you want to exclude files starting with a certain prefix (e.g. a namespace) in a subfolder, regardless of the main folder name
+**/myTrackedSub/myPrefix__*
+
+#sfdx metadata
+**/certs/**
+**/installedPackages/**
+**/connectedApps/**
+**/samlssoconfigs/**
+**/namedCredentials/**
+**/documents/**
+**/contentassets/**
+#add further metadata below if needed
+
+
+#Managed Package Metadata
+**/classes/copado__*
+**/triggers/copado__*
+**/pages/copado__*
+**/lwc/copado__*
+**/aura/copado__*
+**/staticresources/copado__*
+
+**/classes/trailheadapp__*
+**/triggers/trailheadapp__*
+**/pages/trailheadapp__*
+**/lwc/trailheadapp__*
+**/aura/trailheadapp__*
+**/staticresources/trailheadapp__*
+
+**/classes/sf_chttr_apps__*
+**/triggers/sf_chttr_apps__*
+**/pages/sf_chttr_apps__*
+**/lwc/sf_chttr_apps__*
+**/aura/sf_chttr_apps__*
+**/staticresources/sf_chttr_apps__*
+
+#add further metadata of managed packages below
+
