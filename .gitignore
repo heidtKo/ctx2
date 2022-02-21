@@ -34,7 +34,7 @@ myTrackedFolder/mySubFolder/myFile.untracked
 **/connectedApps/**
 **/samlssoconfigs/**
 **/namedCredentials/**
-**/documents/**
+#**/documents/**
 **/contentassets/**
 #add further metadata below if needed
 

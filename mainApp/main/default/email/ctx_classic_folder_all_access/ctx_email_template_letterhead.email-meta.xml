@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>ctx email template letterhead</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>ctx_letterhead_simple</letterhead>
+    <name>ctx email template letterhead</name>
+    <style>newsletter</style>
+    <subject>ctx email template letterhead</subject>
+    <textOnly>ctx email template letterhead ctx email template letterhead ctx email template letterhead {!Contact.Email} {!Contact.AssistantName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

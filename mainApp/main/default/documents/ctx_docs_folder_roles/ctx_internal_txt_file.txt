@@ -1,0 +1,146 @@
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO download file=/tmp/0687Q000000HPMqQAO.Copado Commit changes.json
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Encoding Metadata'
+2022-02-21 13:59:05 UTC	commited_name: Account.Account_Sharing_Criteria
+2022-02-21 13:59:05 UTC	commited_name: Account
+2022-02-21 13:59:05 UTC	[{"t":"SharingCriteriaRule","n":"Account.Account_Sharing_Criteria","m":"force-app/main/default/","a":"Add"},{"t":"SharingRules","n":"Account","m":"force-app/main/default/","a":"Add"}]
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Retrieving the metadata'
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO download file=/tmp/0687Q000000HPMqQAO.Copado Commit changes.json
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Preparing sfdx project configuration'
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Retrieving the metadata'
+2022-02-21 13:59:05 UTC	{
+2022-02-21 13:59:05 UTC	  "status": 0,
+2022-02-21 13:59:05 UTC	  "result": {
+2022-02-21 13:59:05 UTC	    "inboundFiles": [
+2022-02-21 13:59:05 UTC	      {
+2022-02-21 13:59:05 UTC	        "fullName": "Account",
+2022-02-21 13:59:05 UTC	        "type": "SharingRules",
+2022-02-21 13:59:05 UTC	        "state": "Created",
+2022-02-21 13:59:05 UTC	        "filePath": "/app/retrieve/force-app/main/default/sharingRules/Account.sharingRules-meta.xml"
+2022-02-21 13:59:05 UTC	      }
+2022-02-21 13:59:05 UTC	    ],
+2022-02-21 13:59:05 UTC	    "packages": [],
+2022-02-21 13:59:05 UTC	    "warnings": [],
+2022-02-21 13:59:05 UTC	    "response": {
+2022-02-21 13:59:05 UTC	      "done": true,
+2022-02-21 13:59:05 UTC	      "fileProperties": [
+2022-02-21 13:59:05 UTC	        {
+2022-02-21 13:59:05 UTC	          "createdById": "0057Q000001a0X7QAI",
+2022-02-21 13:59:05 UTC	          "createdByName": "Víctor Cuarental Bolet",
+2022-02-21 13:59:05 UTC	          "createdDate": "2022-02-21T13:58:52.289Z",
+2022-02-21 13:59:05 UTC	          "fileName": "unpackaged/sharingRules/Account.sharingRules",
+2022-02-21 13:59:05 UTC	          "fullName": "Account",
+2022-02-21 13:59:05 UTC	          "id": "000000000000000AAA",
+2022-02-21 13:59:05 UTC	          "lastModifiedById": "0057Q000001a0X7QAI",
+2022-02-21 13:59:05 UTC	          "lastModifiedByName": "Víctor Cuarental Bolet",
+2022-02-21 13:59:05 UTC	          "lastModifiedDate": "2022-02-21T13:58:52.289Z",
+2022-02-21 13:59:05 UTC	          "type": "SharingRules"
+2022-02-21 13:59:05 UTC	        },
+2022-02-21 13:59:05 UTC	        {
+2022-02-21 13:59:05 UTC	          "createdById": "0057Q000001a0X7QAI",
+2022-02-21 13:59:05 UTC	          "createdByName": "Víctor Cuarental Bolet",
+2022-02-21 13:59:05 UTC	          "createdDate": "2022-02-21T13:58:52.297Z",
+2022-02-21 13:59:05 UTC	          "fileName": "unpackaged/package.xml",
+2022-02-21 13:59:05 UTC	          "fullName": "unpackaged/package.xml",
+2022-02-21 13:59:05 UTC	          "id": "",
+2022-02-21 13:59:05 UTC	          "lastModifiedById": "0057Q000001a0X7QAI",
+2022-02-21 13:59:05 UTC	          "lastModifiedByName": "Víctor Cuarental Bolet",
+2022-02-21 13:59:05 UTC	          "lastModifiedDate": "2022-02-21T13:58:52.297Z",
+2022-02-21 13:59:05 UTC	          "manageableState": "unmanaged",
+2022-02-21 13:59:05 UTC	          "type": "Package"
+2022-02-21 13:59:05 UTC	        }
+2022-02-21 13:59:05 UTC	      ],
+2022-02-21 13:59:05 UTC	      "id": "09S0Q000003VU4qUAG",
+2022-02-21 13:59:05 UTC	      "status": "Succeeded",
+2022-02-21 13:59:05 UTC	      "success": true
+2022-02-21 13:59:05 UTC	    }
+2022-02-21 13:59:05 UTC	  }
+2022-02-21 13:59:05 UTC	}
+2022-02-21 13:59:05 UTC	 |-retrieve
+2022-02-21 13:59:05 UTC	 | |-.sfdx
+2022-02-21 13:59:05 UTC	 | | |-sfdx-config.json
+2022-02-21 13:59:05 UTC	 | |-force-app
+2022-02-21 13:59:05 UTC	 | | |-main
+2022-02-21 13:59:05 UTC	 | | | |-default
+2022-02-21 13:59:05 UTC	 | | | | |-sharingRules
+2022-02-21 13:59:05 UTC	 | | | | | |-Account.sharingRules-meta.xml
+2022-02-21 13:59:05 UTC	 | |-sfdx-project.json
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Cleanup config files'
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.commands.core.command.impl.CommandRunner - Substitution type  'value'  override --> 'name'.
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.commands.core.command.impl.CommandRunner - No duplicates allowed. Performing check...
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.commands.core.command.impl.CommandRunner - No duplicates found.
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.commands.core.command.impl.CommandRunner - Exclusion list set to:
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO download file=/tmp/0687Q000000HPMgQAO.Copado.yml
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.yamlreplace.core.process.FileProcessor - Replacements made:'0'
+2022-02-21 13:59:05 UTC	[main] INFO com.copado.functions.core.yamlreplace.core.process.FileProcessor - Total yml process time spent:'00:00:00.000'
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Fetching Git branches: feature/US-0000045'
+2022-02-21 13:59:05 UTC	CopadoFunction INFO fetching/checking-out branch 'master' in directory '.'
+2022-02-21 13:59:05 UTC	Warning: Permanently added 'github.com,140.82.112.4' (ECDSA) to the list of known hosts.
+2022-02-21 13:59:05 UTC	Hi vcuarental! You've successfully authenticated, but GitHub does not provide shell access.
+2022-02-21 13:59:05 UTC	From github.com:vcuarental/DX2_0
+2022-02-21 13:59:05 UTC	 * branch            master     -> FETCH_HEAD
+2022-02-21 13:59:05 UTC	 * [new branch]      master     -> origin/master
+2022-02-21 13:59:05 UTC	Branch 'master' set up to track remote branch 'master' from 'origin'.
+2022-02-21 13:59:05 UTC	Already on 'master'
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Removing branch feature/US-0000045'
+2022-02-21 13:59:05 UTC	error: branch 'feature/US-0000045' not found.
+2022-02-21 13:59:05 UTC	Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
+2022-02-21 13:59:05 UTC	error: unable to delete 'feature/US-0000045': remote ref does not exist
+2022-02-21 13:59:05 UTC	error: failed to push some refs to 'github.com:vcuarental/DX2_0.git'
+2022-02-21 13:59:05 UTC	CopadoFunctionINFO setting status 'Fetching/creating branch feature/US-0000045'
+2022-02-21 13:59:05 UTC	CopadoFunction INFO fetching/checking-out branch 'feature/US-0000045' in directory '.'
+2022-02-21 13:59:06 UTC	Hi vcuarental! You've successfully authenticated, but GitHub does not provide shell access.
+2022-02-21 13:59:06 UTC	fatal: couldn't find remote ref feature/US-0000045
+2022-02-21 13:59:06 UTC	Switched to a new branch 'feature/US-0000045'
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Metadata of type - SharingCriteriaRule kind -child name : Account.Account_Sharing_Criteria
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - path from mapping - sharingRules/<name>.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Path Prefix  - force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - final prefix path including module path- /app/retrieve/force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Simple metadata of Type -SharingCriteriaRule
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - HandleSimple metadata with path /app/retrieve/force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Send Absolute path
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Final pathList returned - [/app/retrieve/force-app/main/default/sharingRules/Account.sharingRules-meta.xml]
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Metadata of type - SharingRules kind - name : Account
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - path from mapping - sharingRules/<name>.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Path Prefix  - force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - final prefix path including module path- /app/retrieve/force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Simple metadata of Type -SharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - HandleSimple metadata with path /app/retrieve/force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Send Absolute path
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Final pathList returned - [/app/retrieve/force-app/main/default/sharingRules/Account.sharingRules-meta.xml]
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl - Inside updateChangeMetadataPath : calling FileMapperService with MappedmetadataMappedMetadata(name=Account.Account_Sharing_Criteria, type=SharingCriteriaRule, module=force-app/main/default/)
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Metadata of type - SharingCriteriaRule kind -child name : Account.Account_Sharing_Criteria
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - path from mapping - sharingRules/<name>.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Path Prefix  - force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl - Path received from FileMapper -force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl - Inside updateChangeMetadataPath : calling FileMapperService with MappedmetadataMappedMetadata(name=Account, type=SharingRules, module=force-app/main/default/)
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Metadata of type - SharingRules kind - name : Account
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - path from mapping - sharingRules/<name>.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.core.filemapper.service.MetadataMapperServiceImpl - Path Prefix  - force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl - Path received from FileMapper -force-app/main/default/sharingRules/Account.sharingRules
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl - process sourceDirectory -/tmp/tmpFolder80842259824086367 targetDirectory /app/repository
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.utils.HelperUtil - Inside copyTo : sourceFile -/tmp/tmpFolder80842259824086367/force-app/main/default/sharingRules/Account.sharingRules-meta.xml destinationPath -/app/repository/force-app/main/default/sharingRules/Account.sharingRules-meta.xml
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.utils.HelperUtil - Destination Path does not exist copying source to destination
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.utils.HelperUtil - Inside copyTo : sourceFile -/tmp/tmpFolder80842259824086367/force-app/main/default/sharingRules/Account.sharingRules-meta.xml destinationPath -/app/repository/force-app/main/default/sharingRules/Account.sharingRules-meta.xml
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.service.utils.HelperUtil - Check if Parent Metadata Handling Needed
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.NestedComponentsFacadeImpl - Starting Process Flow
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.NestedComponentsFacadeImpl - Processing :Account.Account_Sharing_Criteria
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.NestedComponentsFacadeImpl - Skipping the Handing for non nested metadata SharingCriteriaRule
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.NestedComponentsFacadeImpl - Processing :Account
+2022-02-21 13:59:06 UTC	[main] INFO com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.MetadataFactory - calling xmlfile manager for reordering
+2022-02-21 13:59:06 UTC	[main] ERROR com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.MetadataFactory - Some Exception Occurred while loading metadata com.sforce.ws.ConnectionException: unable to find end tag at:  START_TAG seen ...</criteriaItems>\n        <includeRecordsOwnedByAll>... @20:35
+2022-02-21 13:59:06 UTC	java.lang.RuntimeException: Error :com.copado.functions.commands.dx.metadataprocessor.core.exception.MetadataXMLParsingException: com.sforce.ws.ConnectionException: unable to find end tag at:  START_TAG seen ...</criteriaItems>\n        <includeRecordsOwnedByAll>... @20:35
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.MetadataFactory.load(MetadataFactory.java:47)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.core.facade.mdapi.NestedComponentsFacadeImpl.process(NestedComponentsFacadeImpl.java:58)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.service.service.NestedMetadataProcessorServiceImpl.process(NestedMetadataProcessorServiceImpl.java:62)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.command.command.impl.CommandRunner.processNested(CommandRunner.java:45)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.command.command.impl.CommandRunner.call(CommandRunner.java:30)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.command.MetadataProcessorCommand.call(MetadataProcessorCommand.java:78)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.command.MetadataProcessorCommand.call(MetadataProcessorCommand.java:25)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine.executeUserObject(CommandLine.java:1953)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine.access$1300(CommandLine.java:145)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2352)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine$RunLast.handle(CommandLine.java:2346)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine$RunLast.handle(CommandLine.java:2311)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179)
+2022-02-21 13:59:06 UTC		at picocli.CommandLine.execute(CommandLine.java:2078)
+2022-02-21 13:59:06 UTC		at com.copado.functions.commands.dx.metadataprocessor.command.MetadataProcessorCommand.main(MetadataProcessorCommand.java:51)

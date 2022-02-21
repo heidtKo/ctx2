@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ctx classic email folder groups</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <group>ctx_group_1_simple</group>
+        <group>ctx_group_with_delegate</group>
+    </sharedTo>
+</EmailFolder>

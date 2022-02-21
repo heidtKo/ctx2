@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ctx queue roles n subs</name>
+    <queueMembers>
+        <roleAndSubordinatesInternal>
+            <roleAndSubordinateInternal>ctx_sub_role_1_level_2</roleAndSubordinateInternal>
+            <roleAndSubordinateInternal>ctx_sub_role_2_level_2</roleAndSubordinateInternal>
+            <roleAndSubordinateInternal>ctx_sub_role_3_level_2</roleAndSubordinateInternal>
+            <roleAndSubordinateInternal>ctx_sub_role_4_level_2</roleAndSubordinateInternal>
+        </roleAndSubordinatesInternal>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>AccountBrand</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>AuthorizationForm</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>AuthorizationFormConsent</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>AuthorizationFormDataUse</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>BusinessBrand</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

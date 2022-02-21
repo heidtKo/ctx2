@@ -1,0 +1,4 @@
+this is an only txt email:
+
+merge field test:
+{!Contact.AssistantName}

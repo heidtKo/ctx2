@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>mymail@example.com</email>
+    <name>ctx queue simple</name>
+    <queueSobject>
+        <sobjectType>AccountBrand</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>BusinessBrand</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Customer</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ctx classic email folder roles</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>ctx_sub_role_1_level_1</role>
+        <role>ctx_sub_role_2_level_1</role>
+    </sharedTo>
+</EmailFolder>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ctx docs folder roles n subs</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinatesInternal>ctx_sub_role_1_level_2</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>ctx_sub_role_2_level_2</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>ctx_sub_role_3_level_2</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>ctx_sub_role_4_level_2</roleAndSubordinatesInternal>
+    </sharedTo>
+</DocumentFolder>
