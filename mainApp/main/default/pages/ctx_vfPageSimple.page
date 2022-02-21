@@ -1,0 +1,8 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page. It is very simple, so it should not break.
+  Here, I will add some lines.
+  This way we can test conflicts very easy!
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

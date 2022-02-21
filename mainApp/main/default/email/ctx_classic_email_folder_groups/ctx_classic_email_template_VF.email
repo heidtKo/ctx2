@@ -1,0 +1,8 @@
+<messaging:emailTemplate subject="ctx classic email template VF" recipientType="Contact" relatedToType="Case">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+I hope it works, like it's supposed to.
+This template is very simple, so it should not fail.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>
