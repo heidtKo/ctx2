@@ -4,7 +4,7 @@
   "hasSampleData": true,
   "language": "en_US",
   "features": [ 
-    "ANALYTICSAPPEMBEDDED", "SalesWave","ServiceWave"
+    "ANALYTICSAPPEMBEDDED", "SalesWave","ServiceWave", "COMMUNITIES"
   ],
   "settings": {
     "analyticsSettings": {
@@ -13,6 +13,9 @@
     "languageSettings": {
       "enableEndUserLanguages": true,
       "enableTranslationWorkbench": true
+    }, 
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
     }
   }
 }
