@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Galaxy --></label>
+    <name>Galaxy__c</name>
+    <picklistValues>
+        <masterLabel>Andromeda Galaxy</masterLabel>
+        <translation><!-- Andromeda Galaxy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cigar Galaxy</masterLabel>
+        <translation><!-- Cigar Galaxy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eye of Sauron</masterLabel>
+        <translation><!-- Eye of Sauron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milky Way</masterLabel>
+        <translation><!-- Milky Way --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

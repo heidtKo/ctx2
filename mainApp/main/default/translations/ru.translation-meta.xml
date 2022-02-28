@@ -51,4 +51,24 @@
         <flows/>
         <fullName>ctx_Set_Same_Planet_Name</fullName>
     </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>This_is_a_text_field</name>
+                </fields>
+                <name>TypeSomeText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>showTextField</name>
+                </fields>
+                <name>show_text</name>
+            </screens>
+            <stages>
+                <name>Show_me_the_screen</name>
+            </stages>
+        </flows>
+        <fullName>ctx_screen_flow_1</fullName>
+    </flowDefinitions>
 </Translations>

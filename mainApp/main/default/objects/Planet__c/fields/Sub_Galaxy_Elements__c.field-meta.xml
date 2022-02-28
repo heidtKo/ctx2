@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Galaxy_Elements__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Galaxy Elements</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Galaxy__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>East Milky Way</fullName>
+                <default>false</default>
+                <label>East Milky Way</label>
+            </value>
+            <value>
+                <fullName>North Milky Way</fullName>
+                <default>false</default>
+                <label>North Milky Way</label>
+            </value>
+            <value>
+                <fullName>Very Milky Way</fullName>
+                <default>false</default>
+                <label>Very Milky Way</label>
+            </value>
+            <value>
+                <fullName>Hazelnut Milk Way</fullName>
+                <default>false</default>
+                <label>Hazelnut Milk Way</label>
+            </value>
+            <value>
+                <fullName>Core Andromeda</fullName>
+                <default>false</default>
+                <label>Core Andromeda</label>
+            </value>
+            <value>
+                <fullName>Android Andromeda</fullName>
+                <default>false</default>
+                <label>Android Andromeda</label>
+            </value>
+            <value>
+                <fullName>Camel Andromedar</fullName>
+                <default>false</default>
+                <label>Camel Andromedar</label>
+            </value>
+            <value>
+                <fullName>Frodo Got It</fullName>
+                <default>false</default>
+                <label>Frodo Got It</label>
+            </value>
+            <value>
+                <fullName>Frodo Brings It</fullName>
+                <default>false</default>
+                <label>Frodo Brings It</label>
+            </value>
+            <value>
+                <fullName>Frodo Drops It</fullName>
+                <default>false</default>
+                <label>Frodo Drops It</label>
+            </value>
+            <value>
+                <fullName>Vegueros</fullName>
+                <default>false</default>
+                <label>Vegueros</label>
+            </value>
+            <value>
+                <fullName>Vega Fina</fullName>
+                <default>false</default>
+                <label>Vega Fina</label>
+            </value>
+            <value>
+                <fullName>Cohiba</fullName>
+                <default>false</default>
+                <label>Cohiba</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Milky Way</controllingFieldValue>
+            <valueName>East Milky Way</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milky Way</controllingFieldValue>
+            <valueName>North Milky Way</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milky Way</controllingFieldValue>
+            <valueName>Very Milky Way</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+            <valueName>Frodo Got It</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+            <valueName>Frodo Brings It</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eye of Sauron</controllingFieldValue>
+            <valueName>Frodo Drops It</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+            <valueName>Core Andromeda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+            <valueName>Android Andromeda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andromeda Galaxy</controllingFieldValue>
+            <valueName>Camel Andromedar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+            <valueName>Vegueros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+            <valueName>Vega Fina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cigar Galaxy</controllingFieldValue>
+            <valueName>Cohiba</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

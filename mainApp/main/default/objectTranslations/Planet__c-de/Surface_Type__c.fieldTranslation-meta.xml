@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Surface Types --></label>
+    <name>Surface_Type__c</name>
+    <picklistValues>
+        <masterLabel>Beach</masterLabel>
+        <translation><!-- Beach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Blue Gas</masterLabel>
+        <translation><!-- Blue Gas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forest</masterLabel>
+        <translation><!-- Forest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green Gas</masterLabel>
+        <translation><!-- Green Gas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grey Gas</masterLabel>
+        <translation><!-- Grey Gas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grey Rocks</masterLabel>
+        <translation><!-- Grey Rocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less White Ice</masterLabel>
+        <translation><!-- Less White Ice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mountains</masterLabel>
+        <translation><!-- Mountains --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Red Rocks</masterLabel>
+        <translation><!-- Red Rocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>See</masterLabel>
+        <translation><!-- See --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shiny Rocks</masterLabel>
+        <translation><!-- Shiny Rocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White Ice</masterLabel>
+        <translation><!-- White Ice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White Rocks</masterLabel>
+        <translation><!-- White Rocks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Whiter Ice</masterLabel>
+        <translation><!-- Whiter Ice --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

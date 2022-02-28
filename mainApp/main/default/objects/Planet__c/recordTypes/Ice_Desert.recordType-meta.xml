@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ice_Desert</fullName>
+    <active>true</active>
+    <label>Ice Desert</label>
+    <picklistValues>
+        <picklist>Dominant_Life_Form__c</picklist>
+        <values>
+            <fullName>Bacteria</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Galaxy__c</picklist>
+        <values>
+            <fullName>Andromeda Galaxy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cigar Galaxy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eye of Sauron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milky Way</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Galaxy_Elements__c</picklist>
+        <values>
+            <fullName>Android Andromeda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camel Andromedar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cohiba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Andromeda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Milky Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frodo Brings It</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frodo Drops It</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frodo Got It</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hazelnut Milk Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Milky Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vega Fina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vegueros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Milky Way</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Surface_Type__c</picklist>
+        <values>
+            <fullName>Grey Rocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less White Ice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Rocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shiny Rocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White Ice</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>White Rocks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whiter Ice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surface_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Surface Types</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue Gas</fullName>
+                <default>false</default>
+                <label>Blue Gas</label>
+            </value>
+            <value>
+                <fullName>Green Gas</fullName>
+                <default>false</default>
+                <label>Green Gas</label>
+            </value>
+            <value>
+                <fullName>Grey Gas</fullName>
+                <default>false</default>
+                <label>Grey Gas</label>
+            </value>
+            <value>
+                <fullName>Forest</fullName>
+                <default>false</default>
+                <label>Forest</label>
+            </value>
+            <value>
+                <fullName>See</fullName>
+                <default>false</default>
+                <label>See</label>
+            </value>
+            <value>
+                <fullName>Mountains</fullName>
+                <default>false</default>
+                <label>Mountains</label>
+            </value>
+            <value>
+                <fullName>Beach</fullName>
+                <default>false</default>
+                <label>Beach</label>
+            </value>
+            <value>
+                <fullName>Red Rocks</fullName>
+                <default>false</default>
+                <label>Red Rocks</label>
+            </value>
+            <value>
+                <fullName>Grey Rocks</fullName>
+                <default>false</default>
+                <label>Grey Rocks</label>
+            </value>
+            <value>
+                <fullName>White Rocks</fullName>
+                <default>false</default>
+                <label>White Rocks</label>
+            </value>
+            <value>
+                <fullName>Shiny Rocks</fullName>
+                <default>false</default>
+                <label>Shiny Rocks</label>
+            </value>
+            <value>
+                <fullName>White Ice</fullName>
+                <default>false</default>
+                <label>White Ice</label>
+            </value>
+            <value>
+                <fullName>Whiter Ice</fullName>
+                <default>false</default>
+                <label>Whiter Ice</label>
+            </value>
+            <value>
+                <fullName>Less White Ice</fullName>
+                <default>false</default>
+                <label>Less White Ice</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -48,7 +48,33 @@
         <fullName>ctx_New_Account_Creation</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
+        <flows>
+            <label>den selben Planetnamen zuweisen</label>
+        </flows>
         <fullName>ctx_Set_Same_Planet_Name</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <label>ctx flow logik bildschirm 1</label>
+            <screens>
+                <fields>
+                    <fieldText>Das ist ein Texteingabefeld. Gib einen text ein.</fieldText>
+                    <name>This_is_a_text_field</name>
+                </fields>
+                <helpText>Das ist ein Texteingabefeld</helpText>
+                <name>TypeSomeText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>showTextField</name>
+                </fields>
+                <name>show_text</name>
+            </screens>
+            <stages>
+                <label>Zeige mir den bildschrim (Flow Screenflow Stage Translation)</label>
+                <name>Show_me_the_screen</name>
+            </stages>
+        </flows>
+        <fullName>ctx_screen_flow_1</fullName>
     </flowDefinitions>
 </Translations>

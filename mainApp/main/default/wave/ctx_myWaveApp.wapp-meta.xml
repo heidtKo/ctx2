@@ -4,7 +4,7 @@
     <masterLabel>ctx_myWaveApp</masterLabel>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>test-lv6menb6lk3d@example.com</sharedTo>
+        <sharedTo>test-bmhkbojdzq5d@example.com</sharedTo>
         <sharedToType>User</sharedToType>
     </shares>
 </WaveApplication>

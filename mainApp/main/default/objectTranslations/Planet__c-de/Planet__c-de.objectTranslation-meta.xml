@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Planet --></value>
+    </caseValues>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Planet Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Planet Name --></nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>ctx das hier ist eine Notiz über einen Planeten</label>
+        <name>ctx_PlanetActionNote</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Earth Like --></label>
+        <name>Earth_Like</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Gas Giant --></label>
+        <name>Gas_Giant</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ice Desert --></label>
+        <name>Ice_Desert</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please provide at least a name and a galaxy for your new planet. Come on. --></errorMessage>
+        <name>No_Empty_Name_or_Galaxy</name>
+    </validationRules>
+</CustomObjectTranslation>

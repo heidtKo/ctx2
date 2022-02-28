@@ -2,12 +2,6 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>ctx queue roles</name>
-    <queueMembers>
-        <roles>
-            <role>ctx_sub_role_1_level_1</role>
-            <role>ctx_sub_role_2_level_1</role>
-        </roles>
-    </queueMembers>
     <queueSobject>
         <sobjectType>AccountBrand</sobjectType>
     </queueSobject>

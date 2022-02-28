@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub Galaxy Elements --></label>
+    <name>Sub_Galaxy_Elements__c</name>
+    <picklistValues>
+        <masterLabel>Android Andromeda</masterLabel>
+        <translation><!-- Android Andromeda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camel Andromedar</masterLabel>
+        <translation><!-- Camel Andromedar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cohiba</masterLabel>
+        <translation><!-- Cohiba --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core Andromeda</masterLabel>
+        <translation><!-- Core Andromeda --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Milky Way</masterLabel>
+        <translation><!-- East Milky Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frodo Brings It</masterLabel>
+        <translation><!-- Frodo Brings It --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frodo Drops It</masterLabel>
+        <translation><!-- Frodo Drops It --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frodo Got It</masterLabel>
+        <translation><!-- Frodo Got It --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hazelnut Milk Way</masterLabel>
+        <translation><!-- Hazelnut Milk Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Milky Way</masterLabel>
+        <translation><!-- North Milky Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vega Fina</masterLabel>
+        <translation><!-- Vega Fina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vegueros</masterLabel>
+        <translation><!-- Vegueros --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Very Milky Way</masterLabel>
+        <translation><!-- Very Milky Way --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
