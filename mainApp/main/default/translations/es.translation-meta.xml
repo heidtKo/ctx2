@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Universe --></label>
+        <name>Universe</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ctx simple app --></label>
+        <name>ctx_simple_app</name>
+    </customApplications>
     <customLabels>
         <label>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</label>
         <name>ctx_Special_Characters</name>
@@ -7,6 +15,19 @@
     <customLabels>
         <label>Hola Mundo</label>
         <name>ctx_hello_world</name>
+    </customLabels>
+    <customLabels>
+        <label>mi dimensión</label>
+        <name>ctx_labelDimension</name>
+    </customLabels>
+    <customLabels>
+        <label>mi galaxia
+(ç ñ á à é í ü ä ë ì â )</label>
+        <name>ctx_labelGalaxy</name>
+    </customLabels>
+    <customLabels>
+        <label>mi plata, mi planeta</label>
+        <name>ctx_labelPlanet</name>
     </customLabels>
     <customLabels>
         <label>es cosa alguna raruna</label>
@@ -22,4 +43,21 @@
 áéúíó</label>
         <name>ctx_surprise</name>
     </customLabels>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>multipleRecordsFoundTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>noRecordsFoundTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>ctx_New_Account_Creation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <label>versión 1</label>
+        </flows>
+        <fullName>ctx_Set_Same_Planet_Name</fullName>
+    </flowDefinitions>
 </Translations>

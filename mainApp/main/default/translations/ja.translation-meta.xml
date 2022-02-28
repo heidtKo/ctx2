@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Universe --></label>
+        <name>Universe</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ctx simple app --></label>
+        <name>ctx_simple_app</name>
+    </customApplications>
     <customLabels>
         <label>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</label>
         <name>ctx_Special_Characters</name>
@@ -9,6 +17,18 @@
         <name>ctx_hello_world</name>
     </customLabels>
     <customLabels>
+        <label>私の次元</label>
+        <name>ctx_labelDimension</name>
+    </customLabels>
+    <customLabels>
+        <label>私の銀河</label>
+        <name>ctx_labelGalaxy</name>
+    </customLabels>
+    <customLabels>
+        <label>私の惑星</label>
+        <name>ctx_labelPlanet</name>
+    </customLabels>
+    <customLabels>
         <label>これはランダムなものです</label>
         <name>ctx_random_label</name>
     </customLabels>
@@ -16,4 +36,21 @@
         <label>サプライズ</label>
         <name>ctx_surprise</name>
     </customLabels>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>multipleRecordsFoundTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>noRecordsFoundTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>ctx_New_Account_Creation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <label>バージョン 1</label>
+        </flows>
+        <fullName>ctx_Set_Same_Planet_Name</fullName>
+    </flowDefinitions>
 </Translations>
