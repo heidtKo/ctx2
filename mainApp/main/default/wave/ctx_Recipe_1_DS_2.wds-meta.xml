@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>ctx_myWaveApp</application>
+    <description>Created from the ctx Recipe 1 recipe.</description>
+    <masterLabel>ctx Recipe 1 DS 2</masterLabel>
+    <type>default</type>
+</WaveDataset>
