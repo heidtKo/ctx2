@@ -17,6 +17,10 @@
         </sections>
     </layouts>
     <nameFieldLabel><!-- Planet Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- ctx planet Log A Note --></label>
+        <name>ctx_PlanetActionNote</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Earth Like --></label>
         <name>Earth_Like</name>
@@ -33,4 +37,16 @@
         <errorMessage><!-- Please provide at least a name and a galaxy for your new planet. Come on. --></errorMessage>
         <name>No_Empty_Name_or_Galaxy</name>
     </validationRules>
+    <webLinks>
+        <label>esto es el enlace del planeta</label>
+        <name>ctx_planet_weblink_1</name>
+    </webLinks>
+    <webLinks>
+        <label>aqui está la galaxia</label>
+        <name>ctx_planet_weblink_2</name>
+    </webLinks>
+    <workflowTasks>
+        <name>ctx_planet_WF_Task_1</name>
+        <subject>es un planeta. nr 1. la tierra, posiblemente</subject>
+    </workflowTasks>
 </CustomObjectTranslation>

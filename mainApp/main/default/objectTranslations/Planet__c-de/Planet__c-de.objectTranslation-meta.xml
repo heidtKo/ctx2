@@ -70,4 +70,16 @@
         <errorMessage><!-- Please provide at least a name and a galaxy for your new planet. Come on. --></errorMessage>
         <name>No_Empty_Name_or_Galaxy</name>
     </validationRules>
+    <webLinks>
+        <label>das ist der weblink für planeten</label>
+        <name>ctx_planet_weblink_1</name>
+    </webLinks>
+    <webLinks>
+        <label>das ist der link für galaxien</label>
+        <name>ctx_planet_weblink_2</name>
+    </webLinks>
+    <workflowTasks>
+        <name>ctx_planet_WF_Task_1</name>
+        <subject>hallo, das ist aufgabe nr 1 des planeten. was sonst</subject>
+    </workflowTasks>
 </CustomObjectTranslation>
