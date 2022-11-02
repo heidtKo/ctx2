@@ -1,6 +1,7 @@
 #sfdx project files
 .sfdx
 .sfdx/*
+.sf
 
 #editor files
 .idea/*
