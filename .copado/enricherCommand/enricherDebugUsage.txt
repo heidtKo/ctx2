@@ -1,0 +1,21 @@
+
+Get command tar file from Copado Product Manager
+
+Install Command Tar & confirm with password
+sudo npm install <fileLocation> --global
+
+
+Clone repo where needed & check out content (location, branch, commit)
+get change file from Copado attachments related list (story or promotion)
+modify file if needed
+run command:
+enricher --repopath <pathToRepo> --changepath <pathToFileWithSelectedChanges> --out <pathToOutputFile>
+
+Example: terminal in repo parent folder, sub folders for operation in repo
+enricher --repopath ctx2 --changepath "ctx2/.copado/enricherCommand/CopadoCC1.json" --out ctx2/.copado/enricherCommand/enricherOut.json
+
+Command will:
+- Check the metadata type and name selected in input json
+- go through the repository
+- Use a SF Lib to find the file path
+- Put the file path of a metadata selection in the output json file

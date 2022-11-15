@@ -1,0 +1,30 @@
+[
+    {
+        "t": "CustomApplication",
+        "n": "ctx_simple_app",
+        "m": "File path is handled automatically",
+        "c": "",
+        "a": "Add"
+    },
+    {
+        "t": "FlexiPage",
+        "n": "Planet_Page",
+        "m": "File path is handled automatically",
+        "c": "",
+        "a": "Add"
+    },
+    {
+        "t": "Profile",
+        "n": "Admin",
+        "m": "File path is handled automatically",
+        "c": "",
+        "a": "Add"
+    },
+    {
+        "t": "CustomApplication",
+        "n": "standard__Sales",
+        "m": "File path is handled automatically",
+        "c": "",
+        "a": "RetrieveOnly"
+    }
+]
