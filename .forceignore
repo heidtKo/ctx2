@@ -4,6 +4,8 @@
 
 package.xml
 
+**/.dummyfile
+
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json

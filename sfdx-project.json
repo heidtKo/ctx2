@@ -6,6 +6,10 @@
             "package": "ctx2",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "salesApp",
+            "default": false
         }
     ],
     "name": "ctx2",
