@@ -1,0 +1,317 @@
+{
+  "test_cases": [
+    {
+      "description": "Testing of Nested Handling for Profile for COMMIT Operation",
+      "changes": [
+        {
+          "t": "Profile",
+          "n": "Admin",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "Layout",
+          "n": "KompalCustomObj1__c-CustFol_Object Layout",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "Layout",
+          "n": "KompalCustomObj1__c-CustFol_Object Layout",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for PERMISSIONSET for COMMIT Operation",
+      "changes": [
+        
+        {
+          "t": "PermissionSet",
+          "n": "SDL_PS",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/permissionsets/SDL_PS.permissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for MUTINGPERMISSIONSET for COMMIT Operation",
+      "changes": [
+        
+        {
+          "t": "MutingPermissionSet",
+          "n": "kompal2_Muted",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/mutingpermissionsets/kompal2_Muted.mutingpermissionset-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "KompalCustomObj1__c.KompalField__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexClass",
+          "n": "Democls",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "ApexPage",
+          "n": "demopage",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "RecordType",
+          "n": "KompalCustomObj1__c.CFS_RT1",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },{
+          "t": "CustomPermission",
+          "n": "v54customperm",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        }
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for ASSIGNMENTRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "AssignmentRules",
+          "n": "Case",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/assignmentRules/Case.assignmentRules-meta.xml\"]}"
+        },
+        {
+          "t": "AssignmentRule",
+          "n": "Case.customrule",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/assignmentRules/Case.assignmentRules-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    },{
+      "description": "Testing of Nested Handling for MATCHINGRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "MatchingRules",
+          "n": "SDL_CustObj__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
+        },
+        {
+          "t": "MatchingRule",
+          "n": "SDL_CustObj__c.SDL_MatchRule2",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/matchingRules/SDL_CustObj__c.matchingRule-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for SHARINGRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "SharingRules",
+          "n": "SDL_CustObj__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
+        },
+        {
+          "t": "SharingOwnerRule",
+          "n": "SDL_CustObj__c.SDL_SharingRules3",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
+        },{
+          "t": "SharingCriteriaRule",
+          "n": "SDL_CustObj__c.SDL_SharingRules4",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/sharingRules/SDL_CustObj__c.sharingRules-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    },
+    {
+      "description": "Testing of Nested Handling for ESCALATIONRULES for COMMIT Operation",
+      "changes": [
+        {
+          "t": "EscalationRules",
+          "n": "Case",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/escalationRules/Case.escalationRules-meta.xml\"]}"
+        },
+        {
+          "t": "EscalationRule",
+          "n": "Case.myRule",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/escalationRules/Case.escalationRules-meta.xml\"]}"
+        }
+        
+      ],
+      "Operation": "COMMIT"
+    }
+    
+  ]
+}
