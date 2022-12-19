@@ -1,0 +1,14 @@
+metadataXMLstandard:
+  includedTypes:
+    - profile
+    - label
+    - ...
+  modFindPattern:     '(?s)((?<one>\n\s*<tagGroup>(?:(?!<tagGroup>).)*?<idTag>)(?<SEL>idValue)(?<three></idTag>.*?<modTag>)(?<MOD>.*?)(?<five></modTag>(?:(?!<tagGroup>).)*?</tagGroup>))'
+  SmodReplacePattern:  '$+{one}$+{SEL}$+{three}SmodValue$+{five}'
+  NSmodReplacePattern:  '$+{one}$+{SEL}$+{three}NSmodValue$+{five}'
+  assertPattern:
+
+
+metadataCLS:
+
+metadataJSON:

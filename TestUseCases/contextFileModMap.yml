@@ -1,0 +1,47 @@
+Type:
+  Profile:
+    contextTypes:
+      - 'updateCommit' #coming from test execution context list context
+      - 'initialCommit'
+      - 'conflictChanges'
+      - 'destructive'
+    nodeTypes:
+      ObjectPermission:
+        tagGroup:   'objectPermissions' #the group of node tags such as field permissions or pageAccess
+        idTag:      'object' #identifying tag, depends on type api in selection
+        idValue:    '{!change.selectionApiName}' #depends on name of selected element. usually the api name
+        modTag:     'viewAllRecords' #modification tag, tag content to be modified
+        SmodValue:   'true' #new Value to be put into the mod tag
+
+      PageAccess:
+        tagGroup:   'pageAccesses' #the group of node tags such as field permissions or pageAccess
+        idTag:      'apexPage' #identifying tag, depends on type api in selection
+        idValue:    '{!change.selectionApiName}' #depends on name of selected element. usually the api name
+        modTag:     'enabled' #modification tag, tag content to be modified
+        SmodValue:   'true' #new Value to be put into the mod tag
+
+      AppAccess:
+        tagGroup: 'applicationVisibilities' #the group of node tags such as field permissions or pageAccess
+        idTag: 'application' #identifying tag, depends on type api in selection
+        idValue: '{!change.selectionApiName}' #depends on name of selected element. usually the api name
+        modTag: 'visible' #modification tag, tag content to be modified
+        SmodValue: 'true' #new Value to be put into the mod tag
+      furtherPermissionNodes:
+
+  Label:
+    contextTypes:
+      - 'updateCommit'
+      - 'initialCommit'
+      - 'conflictChanges'
+      - 'destructive'
+    nodeTypes:
+      CustomLabel:
+        tagGroup:   'labels'
+        idTag:      'fullName'
+        idValue:    '{!change.selectionApiName}'
+        modTag:     'value'
+        SmodValue:  '{!RunId}_updateCommit_selected'
+        NSmodValue: '{!RunId}_updateCommit_unwanted'
+
+  OtherMetadata:
+

@@ -1,0 +1,41 @@
+{
+  "test_cases": [
+    {
+      "description": "Testing of Nested Handling for Profile for COMMIT Operation",
+      "changes": [
+        {
+          "t": "Profile",
+          "n": "Admin",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "Planet__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomApplication",
+          "n": "MyApplication",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomLabel",
+          "n": "TestCustomLabel",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        }
+      ]
+    }
+  ]
+}
