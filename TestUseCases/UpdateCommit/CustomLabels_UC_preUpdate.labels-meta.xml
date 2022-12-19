@@ -30,6 +30,13 @@
         <value>modPlaceHolder</value>
     </labels>
     <labels>
+        <fullName>TestCustomLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ctx_labelGalaxy</shortDescription>
+        <value>modPlaceHolder</value>
+    </labels>
+    <labels>
         <fullName>ctx_labelPlanet</fullName>
         <language>en_US</language>
         <protected>true</protected>
