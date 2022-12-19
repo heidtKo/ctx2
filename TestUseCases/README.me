@@ -1,0 +1,10 @@
+Basic Idea
+- Use cases + selections defined in a json file (sampleChanges.json)
+
+The modding Logic will (simplyfied):
+- parse the changes.json
+- get type and name of the metadata
+- get the proper xml tags for each metadata type from the contextFileModMap
+- go to the fileRXpattenrs file and get the proper regex for find & modify the files
+- create a list of regex expressions to find & modify files
+- execute the regex
