@@ -6,35 +6,35 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ctx Special Characters `¨ç_:;__; - (test)</shortDescription>
-        <value>?¿!&quot;@·#$%&amp;/()=?¿¡&apos;*+[]¨{}´ç,;.:-_--__</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_hello_world</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ctx hello world</shortDescription>
-        <value>ctx hello world</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_labelDimension</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ctx_labelDimension</shortDescription>
-        <value>my Dimension</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_labelGalaxy</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ctx_labelGalaxy</shortDescription>
-        <value>My Galaxy</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_labelPlanet</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ctx_labelPlanet</shortDescription>
-        <value>ABCD_selectedChange</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_random_label</fullName>
@@ -42,13 +42,13 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ctx random label</shortDescription>
-        <value>this is random stuff</value>
+        <value>modPlaceHolder</value>
     </labels>
     <labels>
         <fullName>ctx_surprise</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ctx_surprise</shortDescription>
-        <value>surprize</value>
+        <value>modPlaceHolder</value>
     </labels>
 </CustomLabels>
