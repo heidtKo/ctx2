@@ -1,3 +1,5 @@
+#command to run: time perl -pni -f <perl file name> <files to apply regex on>
+
 INIT{undef $/;}
 
 # Profile ModRegEx
