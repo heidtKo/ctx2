@@ -4,7 +4,7 @@
   "hasSampleData": true,
   "language": "en_US",
   "features": [ 
-    "ANALYTICSAPPEMBEDDED", "SalesWave","ServiceWave", "COMMUNITIES"
+    "ANALYTICSAPPEMBEDDED", "DEVELOPMENTWAVE", "COMMUNITIES"
   ],
   "settings": {
     "analyticsSettings": {
