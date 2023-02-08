@@ -15,7 +15,7 @@
     "name": "ctx2",
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "53.0",
+    "sourceApiVersion": "56.0",
     "packageAliases": {
         "ctx2": "0Ho3X000000fxlXSAQ",
         "ctx2@0.1.0-0": "04t3X000002xVerQAE",
