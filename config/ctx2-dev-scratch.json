@@ -22,6 +22,9 @@
     }, 
     "communitiesSettings": {
       "enableNetworksEnabled": true
+    },
+    "omniChannelSettings": {
+      "enableOmniChannel": true
     }
   }
 }
