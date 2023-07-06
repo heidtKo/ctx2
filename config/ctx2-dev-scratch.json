@@ -24,6 +24,7 @@
       "enableNetworksEnabled": true
     },
     "omniChannelSettings": {
+      "enableOmniSkillsRouting": true,
       "enableOmniChannel": true
     }
   }
