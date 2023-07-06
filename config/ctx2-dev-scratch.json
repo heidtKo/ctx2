@@ -5,12 +5,47 @@
   "language": "en_US",
   "features": [ 
     "AnalyticsAppEmbedded", 
+    "Assessments",
     "DevelopmentWave", 
     "Communities", 
     "Knowledge",
     "ServiceCloud",
     "ServiceUser",
-    "ServiceCloudVoicePartnerTelephony:10"
+    "ServiceCloudVoicePartnerTelephony:10",
+    "WorkplaceCommandCenterUser",
+    "WorkThanksPref",
+    "FieldService:10",
+    "FieldServiceDispatcherUser:10",
+    "FieldServiceMobileUser:10",
+    "FieldServiceSchedulingUser:10",
+    "MobileExtMaxFileSizeMB:10",
+    "InsightsPlatform",
+    "FinanceLogging",
+    "FinancialServicesUser:1",
+    "FinancialServicesCommunityUser:1",
+    "ForceComPlatform",
+    "Grantmaking",
+    "HealthCloudAddOn",
+    "HealthCloudForCmty",
+    "HealthCloudMedicationReconciliation",
+    "HealthCloudPNMAddOn",
+    "HealthCloudUser",
+    "InsuranceCalculationUser",
+    "InsuranceClaimMgmt:2",
+    "InsurancePolicyAdmin:2",
+    "IoT",
+    "Interaction",
+    "LightningSalesConsole",
+    "LightningServiceConsole",
+    "LightningScheduler",
+    "LiveAgent",
+    "LiveMessage",
+    "Macros",
+    "MarketingUser",
+    "MultiLevelMasterDetail",
+    "MyTrailhead",
+    "OrderManagement",
+    "OrderSaveLogicEnabled"
   ],
   "settings": {
     "analyticsSettings": {
@@ -27,6 +62,17 @@
       "enableOmniSecondaryRoutingPriority": true,
       "enableOmniSkillsRouting": true,
       "enableOmniChannel": true
+    },
+    "industriesSettings": {
+      "enableIndustriesAssessment": true,
+      "enableDiscoveryFrameworkMetadata": true,
+      "enableGrantmaking": true
+    },
+    "trailheadSettings": {
+      "enableMyTrailheadPref": true
+    },
+    "orderSettings": {
+      "enableOrders": true
     }
   }
 }
