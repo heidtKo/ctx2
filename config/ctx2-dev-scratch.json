@@ -4,7 +4,13 @@
   "hasSampleData": true,
   "language": "en_US",
   "features": [ 
-    "ANALYTICSAPPEMBEDDED", "DEVELOPMENTWAVE", "COMMUNITIES"
+    "AnalyticsAppEmbedded", 
+    "DevelopmentWave", 
+    "Communities", 
+    "Knowledge",
+    "ServiceCloud",
+    "ServiceUser",
+    "ServiceCloudVoicePartnerTelephony:10"
   ],
   "settings": {
     "analyticsSettings": {
