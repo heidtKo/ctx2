@@ -1,0 +1,58 @@
+{
+    "CustomLabels": {
+        "@xmlns": "http://soap.sforce.com/2006/04/metadata",
+        "labels": [
+            {
+                "fullName": "ctx_Special_Characters",
+                "categories": "ctx Special Characters `\u00a8\u00e7_:;__; - (test)",
+                "language": "en_US",
+                "protected": "false",
+                "shortDescription": "ctx Special Characters `\u00a8\u00e7_:;__; - (test)",
+                "value": "?\u00bf!\"@\u00b7#$%&/()=?\u00bf\u00a1'*+[]\u00a8{}\u00b4\u00e7,;.:-_--__"
+            },
+            {
+                "fullName": "ctx_hello_world",
+                "language": "en_US",
+                "protected": "false",
+                "shortDescription": "ctx hello world",
+                "value": "ctx hello world"
+            },
+            {
+                "fullName": "ctx_labelDimension",
+                "language": "en_US",
+                "protected": "true",
+                "shortDescription": "ctx_labelDimension",
+                "value": "my Dimension"
+            },
+            {
+                "fullName": "ctx_labelGalaxy",
+                "language": "en_US",
+                "protected": "true",
+                "shortDescription": "ctx_labelGalaxy",
+                "value": "My Galaxy"
+            },
+            {
+                "fullName": "ctx_labelPlanet",
+                "language": "en_US",
+                "protected": "true",
+                "shortDescription": "ctx_labelPlanet",
+                "value": "ABCD_selectedChange"
+            },
+            {
+                "fullName": "ctx_random_label",
+                "categories": "my random label ^`*+\u00b4\u00c7.- -;.",
+                "language": "en_US",
+                "protected": "false",
+                "shortDescription": "ctx random label",
+                "value": "this is random stuff"
+            },
+            {
+                "fullName": "ctx_surprise",
+                "language": "en_US",
+                "protected": "false",
+                "shortDescription": "ctx_surprise",
+                "value": "surprize"
+            }
+        ]
+    }
+}

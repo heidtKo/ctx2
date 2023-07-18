@@ -45,7 +45,27 @@
     "MultiLevelMasterDetail",
     "MyTrailhead",
     "OrderManagement",
-    "OrderSaveLogicEnabled"
+    "OrderSaveLogicEnabled",
+    "API",
+    "Workflow",
+    "AdmissionsConnectUser",
+    "AdvisorLinkFeature",
+    "AdvisorLinkPathwaysFeature",
+    "AnalyticsAdminPerms",
+    "ArcGraphCommunity",
+    "Assessments",
+    "B2BCommerce",
+    "B2BLoyaltyManagement",
+    "B2CCommerceGMV",
+    "B2CLoyaltyManagement",
+    "BudgetManagement",
+    "BusinessRulesEngine",
+    "Chatbot",
+    "CPQ",
+    "EinsteinAnalyticsPlus",
+    "EinsteinBuilderFree",
+    "EinsteinRecommendationBuilder",
+    "CaseClassification"
   ],
   "settings": {
     "analyticsSettings": {
